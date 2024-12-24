@@ -1,0 +1,39 @@
+name: hackathon
+description: "A new Flutter project."
+publish_to: 'none'  # Prevents accidental publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  geolocator: ^9.0.1
+  flutter:
+    sdk: flutter
+  location: ^7.0.1
+  cupertino_icons: ^1.0.8
+  table_calendar: ^3.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  assets:
+    - assets/aboutus.png
+    - assets/services.jpg
+    - assets/smartwatch.jpg
+    - assets/aboutus2.jpg
+    - assets/smartring.jpg
+    - assets/smartwatch.jpg
+    - assets/antibiotic.jpg
+    - assets/cough.jpg
+    - assets/paracetamol.jpg
+    - assets/spray.jpg
+    - assets/vitd.jpg
+    - assets/smartring2.jpg
+
+
+  uses-material-design: true
